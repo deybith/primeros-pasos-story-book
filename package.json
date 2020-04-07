@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009",
     "build-storybook": "build-storybook",
     "deploy-storybook": "storybook-to-ghpages"
@@ -13,7 +17,21 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "react-scripts": "^3.4.1"
+    "@material-ui/core": "^4.9.8",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.47",
+    "@storybook/addon-knobs": "^5.3.18",
+    "@types/jest": "^25.1.4",
+    "@types/node": "^13.9.8",
+    "@types/react": "^16.9.31",
+    "@types/react-dom": "^16.9.6",
+    "gh-pages": "^2.2.0",
+    "moment": "^2.24.0",
+    "react": "^16.13.1",
+    "react-datetime": "^2.16.3",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^3.4.1",
+    "typescript": "^3.8.3"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^5.3.18",
@@ -21,6 +39,7 @@
     "@storybook/addons": "^5.3.18",
     "@storybook/preset-create-react-app": "^2.1.1",
     "@storybook/react": "^5.3.18",
-    "@storybook/storybook-deployer": "^2.8.3"
+    "@storybook/storybook-deployer": "^2.8.3",
+    "lerna": "^3.20.2"
   }
 }
