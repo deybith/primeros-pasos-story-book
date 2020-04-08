@@ -17,13 +17,7 @@
   "keywords": [],
   "author": "Deybith Steven Simijaca",
   "license": "ISC",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/deybith"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/deybith/react-yii-tools.git"
-  },
+  "repository": "https://github.com/deybith/react-yii-tools.git",
   "dependencies": {
     "@material-ui/core": "^4.9.8",
     "@material-ui/icons": "^4.9.1",
@@ -47,7 +41,6 @@
     "@storybook/addons": "^5.3.18",
     "@storybook/preset-create-react-app": "^2.1.1",
     "@storybook/react": "^5.3.18",
-    "@storybook/storybook-deployer": "^2.8.3",
-    "lerna": "^3.20.2"
+    "@storybook/storybook-deployer": "^2.8.3"
   }
 }
