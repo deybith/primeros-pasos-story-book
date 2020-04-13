@@ -1,6 +1,6 @@
 {
   "name": "react-yii-tools",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Yii2 Components",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,13 @@
   "keywords": [],
   "author": "Deybith Steven Simijaca",
   "license": "ISC",
-  "repository": "https://github.com/deybith/react-yii-tools.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deybith/react-yii-tools.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@deybith"
+  },
   "dependencies": {
     "@material-ui/core": "^4.9.8",
     "@material-ui/icons": "^4.9.1",
